@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Cameron Newborn's Portfolio</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Cameron Newborn</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/frame.png" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Cameron Newborn</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">This is my testing site. You shouldn't be here.</p>
+            </div>
+        </header>
+        <!-- Portfolio Modal-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/spotifyviz.jpg" alt="Log Cabin"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/librarydb.jpg" alt="Tasty Cake"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modal Details-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">SpotifyViz</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/spotifyviz.jpg" alt="SpotifyViz website"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3 text-left" style="text-indent: 2rem">
+                                        This is a website made by myself, Brando Mora, and Samuel Morrero as a final project for COP3530 Data Structures and Algorithms.
+                                        It uses a dataset of over 160k songs compiled from the Spotify API to display song recommendations using a network visualizer.
+                                        The song graph is generated using properties such as danceability, energy, and release year.
+                                        The website uses HTTP requests and Google Firebase functions and to request songs from a Google Firestore database.
+                                    </p>
+                                    <p class="mb-5 text-left" style="text-indent: 2rem">
+                                        I designed the frontend of the site using Bootstrap 4 for the interface, and D3.js for the network visualizer.
+                                        This project was voted the best project out of 50 others by the class.
+                                        It is currently available at <a href="https://spotifyviz.com" class="text-info">spotifyviz.com</a>.
+                                    </p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Library Database</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/librarydb.jpg" alt="Tasty Cake"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3 text-left" style="text-indent: 2rem">
+                                        This is a desktop, Java-based application designed for the administration of a library's members and books.
+                                        It was designed and programmed by myself, Eric Rabil, and Andre Roberts at Wharton High School for our Technology Student Assosiation club.
+                                        The application displays tables of the library's books and members, and allows the user to show details of each book and library member.
+                                    </p>
+                                    <p class="mb-3 text-left" style="text-indent: 2rem">
+                                        This was the first application I ever worked on, and I built most of the frontend and user interface.
+                                        I worked on this application while I was first learning how to program in AP Computer Science during my Senior year at Wharton High School.
+                                        This project is available on <a href="https://github.com/WhartonTSA/Library" class="text-info">github</a>.
+                                    </p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">I am currently studying Aerospace Engineering with a minor in Computer Science at the University of Florida. I expect to graduate in May 2022.<p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">I may be studying engineering, but I have experience with frontend design for web and desktop applications. I am looking for internships in the field of Engineering or Software Development.<p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">(703) 398-2890</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Personal Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">camnewborn@gmail.com</a><br>
+                            <div class="text-muted">School Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">cnewborn@ufl.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">LOCATION</h4>
+                        <p class="pre-wrap lead mb-0">Tampa, Florida</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/cameron.newborn.5/about?section=contact-info&lst=100025239254854%3A100025239254854%3A1597610444"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/Camnew_"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="www.linkedin.com/in/cameron-newborn-aa60b717b"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Camnewb"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4">ABOUT CAMERON</h4>
+                        <p class="pre-wrap lead mb-0">I'm a student at the University of Florida, studying Aerospace Engineering with a minor in Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © Cameron Newborn 2020</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- Google Ads-->
+        <script data-ad-client="ca-pub-2523175092639932" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </body>
+</html>
